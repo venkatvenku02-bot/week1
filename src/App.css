@@ -1,0 +1,88 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page Background */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  min-height: 100vh;
+}
+
+/* App Container */
+.app {
+  max-width: 420px;
+  margin: 60px auto;
+  padding: 25px;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* Main Heading */
+.app h1 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 26px;
+  letter-spacing: 0.5px;
+}
+
+/* Card Style */
+.card {
+  background-color: #f9f9f9;
+  padding: 18px;
+  margin: 15px 0;
+  border-radius: 10px;
+  border-left: 5px solid #4f46e5;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Card Hover Effect */
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* Text Styling */
+.card h2 {
+  color: #222;
+  margin-bottom: 6px;
+}
+
+.card p {
+  color: #555;
+  font-size: 15px;
+}
+
+/* Status Highlight */
+strong {
+  color: #16a34a;
+}
+
+/* Button Styling */
+button {
+  margin-top: 10px;
+  padding: 10px 16px;
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+/* Button Hover */
+button:hover {
+  background: linear-gradient(135deg, #4338ca, #4f46e5);
+  transform: scale(1.05);
+}
+
+/* Button Active */
+button:active {
+  transform: scale(0.95);
+}
